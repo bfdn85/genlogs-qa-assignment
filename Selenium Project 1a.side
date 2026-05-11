@@ -1,0 +1,94 @@
+{
+  "id": "47c62229-9748-44ed-b89d-f51d2fa5ee4a",
+  "version": "2.0",
+  "name": "Selenium Project 1a",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "0748a776-5f1d-4a9f-be33-0b8873610255",
+    "name": "Test",
+    "commands": [{
+      "id": "9c86f3b8-88d6-4957-b091-ee9e497f8284",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ead1a24e-cc88-4673-b356-9ff4a7fdf35e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1742x1046",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a02ea25-2fc1-44b2-a1ad-9b65a9c5d6af",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac0c2dd1-6fd2-4ab7-b5a7-f254527522a9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=hplogo",
+      "targets": [
+        ["id=hplogo", "id"],
+        ["css=#hplogo", "css:finder"],
+        ["xpath=//img[@alt=\"Mother's Day 2026\"]", "xpath:img"],
+        ["xpath=//img[@id='hplogo']", "xpath:attributes"],
+        ["xpath=//div[@id='LS8OJ']/div/a/picture/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64348f78-d2c8-42b1-9b59-5a6f44177673",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Genlogs"
+    }, {
+      "id": "ee5e02fb-a778-4214-a519-8481424f0cb4",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e159e89f-9ce3-4c87-9212-93a4ac56aa0a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//div[@data-rpos=\"0\"]//a[@href=\"https://www.genlogs.io/\"]",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "06b04c16-c988-4107-bf93-f4aee0e48307",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0748a776-5f1d-4a9f-be33-0b8873610255"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}
